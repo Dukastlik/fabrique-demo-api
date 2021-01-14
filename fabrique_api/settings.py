@@ -131,3 +131,4 @@ STATIC_URL = '/static/'
 # URl of Fabrique website
 
 FABRIQUE_LINK = 'https://fabrique.studio/vacancies/'
+TIME_INTERVAL = 30

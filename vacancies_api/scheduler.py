@@ -36,7 +36,7 @@ def start():
     # run this job every hour
     scheduler.add_job(update_vacancies_data,
                       'interval',
-                      seconds=10,
+                      minutes=settings.TIME_INTERVAL,
                       name='update vacancies data',
                       jobstore='default')
 
