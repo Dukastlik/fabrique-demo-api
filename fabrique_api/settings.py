@@ -80,9 +80,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'fabrique_vacancies',
-        'USER': 'yoshimura',
-        'PASSWORD': '',
-        'HOST': 'localhost',
+        'USER': 'dev',
+        'PASSWORD': 'dev',
+        'HOST': 'fabriquepostgres',
         'PORT': '5432',
         #  BASE_DIR / 'db.sqlite3',
     }

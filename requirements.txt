@@ -1,6 +1,7 @@
 django==3.1.5
-djangrorestframework==3.12.2
+djangorestframework==3.12.2
 requests==2.25.1
-bs4==4.9.3
+beautifulsoup4==4.9.3
 lxml==4.6.2
-pascheduler==3.6.3
+django-apscheduler
+psycopg2
