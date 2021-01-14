@@ -21,5 +21,3 @@ class TimestampSerializer(serializers.ModelSerializer):
     class Meta:
         model = Timestamp
         fields = ('timestamp', 'vacancies')
-
-
